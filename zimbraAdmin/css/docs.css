@@ -1,0 +1,55 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Synacor, Inc.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+
+* { @FixBoxModel@ }
+
+.editorBody { background: #dddddd !important;}
+
+.ZDToolBar { @AppTabBorder-normal@ padding:3px;}
+
+.ZDToolBar .ZWidgetTitle { @Text@}
+
+.ZDUtilToolBar { background-color: #bccbd6;}
+
+.ZDEditToolBar { @ToolbarBg@ padding:3px; }
+
+.ZDQtbToolBar { padding:4px; height:75px; }
+
+.ZDEditDiv {
+    margin:2px 2px 2px 3px;
+    border:1px solid gray;
+    height:92%;
+    width:99%;
+}
+
+.ZDEditor {
+    background:#ffffff;
+    width:100%;
+    height:95%;
+    overflow-y : auto;
+}
+
+.QtOuterDiv {
+    width:100%;
+    height:70px;
+}
+
+.QtInnerDiv {
+    width:130px;
+    height:60px;
+    float:left;
+    margin:4px 0px 0px 4px;
+}
+
+.Qttable1 th {
+    background-color:gray;
+}
+
+.Qttable1 tr {
+    background-color:white;
+}
+
+.defaultSkin table {@ToolbarBg@}

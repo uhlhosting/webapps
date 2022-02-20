@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+SPDX-FileCopyrightText: 2022 Synacor, Inc.
+SPDX-FileCopyrightText: 2022 Zextras <https://www.zextras.com>
+
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+<Configure class="org.eclipse.jetty.webapp.WebAppContext">
+  <Get name="securityHandler">
+    <Set name="loginService">
+      <New class="com.zimbra.cs.servlet.ZimbraLoginService">
+        <Set name="name">Zimbra</Set>
+      </New>
+    </Set>
+    <Set name="authenticatorFactory">
+      <New class="com.zimbra.cs.servlet.ZimbraAuthenticatorFactory">
+      </New>
+    </Set>
+  </Get>
+</Configure>

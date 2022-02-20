@@ -1,0 +1,13 @@
+/*
+ * SPDX-FileCopyrightText: 2022 Synacor, Inc.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
+
+/* This file has been introduced for Bug 40522 */
+
+.ZmCalendarNavToolbar .ZmNavToolbarTitle {
+	width:120px;
+	text-align:center;
+	white-space:nowrap;
+}
